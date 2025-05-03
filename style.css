@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(90deg, #780206, #061161);
+  margin: 0;
+  color: white;
+}
+
+.container {
+  max-width: 580px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 2rem 3rem;
+  border-radius: 15px;
+}
+
+.container h1 {
+  font-size: 3rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(214, 13, 110);
+}
+
+.form-control {
+  width: 300px;
+  margin: 15px 0 20px;
+  position: relative;
+}
+
+.form-control input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px rgb(214, 13, 110, 0.3) solid;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.form-btn {
+  background-color: rgb(214, 13, 110);
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  width: 100%;
+  color: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: none;
+}
+
+.form-btn:active {
+  transform: scale(0.98);
+}
